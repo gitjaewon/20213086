@@ -1,0 +1,6 @@
+print("5가지 정수를 입력해주세요:")
+a = list(map(int,input().split()))
+print("총합",sum(a))
+print("가장큰값:",max(a))
+print("가장작은값:",min(a))
+print("평균:",sum(a)/len(a))
